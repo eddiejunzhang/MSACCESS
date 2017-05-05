@@ -1,0 +1,5014 @@
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: m08-mail0421                                                                                          页: 1
+
+
+属性
+AlternateBackShad         100                          AlternateBackThem         -1
+
+AlternateBackTint         100                          BackShade:                100
+BackTint:                 100                          DatasheetForeThem         -1
+
+DatasheetGridline         -1                           DateCreated:              2017/4/23 15:55:52
+DefaultView:              2                            DisplayViewsOnSha         1
+
+FilterOnLoad:             False                        GUID:                     {guid {A64BBB68-
+                                                                                 CCC7-44BB-8E69-
+HideNewField:             False                        LastUpdated:              2017/4/28 10:29:33
+
+NameMap:                  长二进制数据                       OrderByOn:                False
+OrderByOnLoad:            True                         Orientation:              从左到右
+
+PublishToWeb:             1                            ReadOnlyWhenDisco         False
+RecordCount:              1829                         ThemeFontIndex:           -1
+TotalsRow:                False                        Updatable:                True
+
+
+
+
+列
+
+         名称                                                     类型                          长度
+         ID                                                     长整型                                       4
+
+                  AggregateType:              -1
+                  AllowZeroLength:            False
+
+                  AppendOnly:                 False
+                  Attributes:                 固定长度, 自动增量
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                1
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  GUID:                       {guid {280CE02A-98BE-4CCC-BA8D-
+
+                  OrdinalPosition:            0
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                ID
+
+                  SourceTable:                m08-mail0421
+                  TextAlign:                  常规
+
+
+         mDate                                                  日期/时间                                     8
+                  AggregateType:              -1
+
+                  AllowZeroLength:            False
+                  AppendOnly:                 False
+
+                  Attributes:                 固定长度
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+                  ColumnWidth:                3450
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  GUID:                       {guid {B234A733-DAB0-44C7-83DF-
+                  IMEMode:                    2
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            1
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: m08-mail0421   Required:                   False
+
+                  ResultType:                 0
+                  ShowDatePicker:             为日期
+
+                  SourceField:                mDate
+                  SourceTable:                m08-mail0421
+
+                  TextAlign:                  常规
+
+         Folder                                                 文本                                      255
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {13B8BAD8-34C1-4020-B1FE-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            2
+
+                  Required:                   False
+                  ResultType:                 0
+                  SourceField:                Folder
+
+                  SourceTable:                m08-mail0421
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           True
+
+
+         Size                                                   双精度型                                      8
+                  AggregateType:              -1
+
+                  AllowZeroLength:            False
+                  AppendOnly:                 False
+                  Attributes:                 固定长度
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DecimalPlaces:              自动
+                  DisplayControl:             文本框
+                  GUID:                       {guid {10D44CF3-ED2D-4B9B-A8A4-
+
+                  OrdinalPosition:            3
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                Size
+
+                  SourceTable:                m08-mail0421
+                  TextAlign:                  常规
+
+
+         FileName                                               文本                                      255
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: m08-mail0421   AppendOnly:                 False
+
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DisplayControl:             文本框
+                  GUID:                       {guid {A5EF37A5-4FAE-47E4-97E7-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            4
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                FileName
+                  SourceTable:                m08-mail0421
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           True
+
+
+         Status                                                 文本                                      255
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                3675
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {C22274F7-8353-4E32-8A0C-
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            5
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                Status
+
+                  SourceTable:                m08-mail0421
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           True
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: m08-ma                           写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: m08-mail2_0421                                                                                        页: 5
+
+
+属性
+AlternateBackShad         100                          AlternateBackThem         -1
+
+AlternateBackTint         100                          BackShade:                100
+BackTint:                 100                          DatasheetForeThem         -1
+
+DatasheetGridline         -1                           DateCreated:              2017/4/23 15:58:45
+DefaultView:              2                            DisplayViewsOnSha         1
+
+FilterOnLoad:             False                        GUID:                     {guid {2FF549FD-
+                                                                                 187F-46CD-8037-
+HideNewField:             False                        LastUpdated:              2017/4/26 15:38:14
+
+NameMap:                  长二进制数据                       OrderByOn:                False
+OrderByOnLoad:            True                         Orientation:              从左到右
+
+PublishToWeb:             1                            ReadOnlyWhenDisco         False
+RecordCount:              57                           ThemeFontIndex:           -1
+TotalsRow:                False                        Updatable:                True
+
+
+
+
+列
+
+         名称                                                     类型                          长度
+         ID                                                     长整型                                       4
+
+                  AggregateType:              -1
+                  AllowZeroLength:            False
+
+                  AppendOnly:                 False
+                  Attributes:                 固定长度, 自动增量
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  GUID:                       {guid {4D2461D8-1A40-4343-83DB-
+
+                  OrdinalPosition:            0
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                ID
+
+                  SourceTable:                m08-mail2_0421
+                  TextAlign:                  常规
+
+
+         mDate                                                  日期/时间                                     8
+                  AggregateType:              -1
+
+                  AllowZeroLength:            False
+                  AppendOnly:                 False
+
+                  Attributes:                 固定长度
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+                  ColumnWidth:                2340
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  GUID:                       {guid {38609F60-0A0C-4B19-9B87-
+                  IMEMode:                    2
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            1
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: m08-mail2_0421 Required:                   False
+
+                  ResultType:                 0
+                  ShowDatePicker:             为日期
+
+                  SourceField:                mDate
+                  SourceTable:                m08-mail2_0421
+
+                  TextAlign:                  常规
+
+         Folder                                                 文本                                      255
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {8C62D8D6-3548-40EA-A3F3-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            2
+
+                  Required:                   False
+                  ResultType:                 0
+                  SourceField:                Folder
+
+                  SourceTable:                m08-mail2_0421
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           True
+
+
+         Size                                                   双精度型                                      8
+                  AggregateType:              -1
+
+                  AllowZeroLength:            False
+                  AppendOnly:                 False
+                  Attributes:                 固定长度
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DecimalPlaces:              自动
+                  DisplayControl:             文本框
+                  GUID:                       {guid {006B0CBF-F8DE-48DB-90B8-
+
+                  OrdinalPosition:            3
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                Size
+
+                  SourceTable:                m08-mail2_0421
+                  TextAlign:                  常规
+
+
+         FileName                                               文本                                      255
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: m08-mail2_0421 AppendOnly:                 False
+
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DisplayControl:             文本框
+                  GUID:                       {guid {2BEB308B-18A2-468A-88A0-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            4
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                FileName
+                  SourceTable:                m08-mail2_0421
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           True
+
+
+         Status                                                 文本                                      255
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {55E2821A-5991-49B1-9845-
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            5
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                Status
+
+                  SourceTable:                m08-mail2_0421
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           True
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: m08-ma                           写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: m09-mail0421                                                                                          页: 9
+
+
+属性
+AlternateBackShad         100                          AlternateBackThem         -1
+
+AlternateBackTint         100                          BackShade:                100
+BackTint:                 100                          DatasheetForeThem         -1
+
+DatasheetGridline         -1                           DateCreated:              2017/4/23 15:59:57
+DefaultView:              2                            DisplayViewsOnSha         1
+
+FilterOnLoad:             False                        GUID:                     {guid {98F72B37-
+                                                                                 2D25-49A4-B7EE-
+HideNewField:             False                        LastUpdated:              2017/4/26 15:38:24
+
+NameMap:                  长二进制数据                       OrderByOn:                False
+OrderByOnLoad:            True                         Orientation:              从左到右
+
+PublishToWeb:             1                            ReadOnlyWhenDisco         False
+RecordCount:              1804                         ThemeFontIndex:           -1
+TotalsRow:                False                        Updatable:                True
+
+
+
+
+列
+
+         名称                                                     类型                          长度
+         ID                                                     长整型                                       4
+
+                  AggregateType:              -1
+                  AllowZeroLength:            False
+
+                  AppendOnly:                 False
+                  Attributes:                 固定长度, 自动增量
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  GUID:                       {guid {46FAF5AA-0C78-4195-8450-
+
+                  OrdinalPosition:            0
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                ID
+
+                  SourceTable:                m09-mail0421
+                  TextAlign:                  常规
+
+
+         mDate                                                  日期/时间                                     8
+                  AggregateType:              -1
+
+                  AllowZeroLength:            False
+                  AppendOnly:                 False
+
+                  Attributes:                 固定长度
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+                  ColumnWidth:                2340
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  GUID:                       {guid {9321BE86-4898-4CBF-AD62-
+                  IMEMode:                    2
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            1
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: m09-mail0421   Required:                   False
+
+                  ResultType:                 0
+                  ShowDatePicker:             为日期
+
+                  SourceField:                mDate
+                  SourceTable:                m09-mail0421
+
+                  TextAlign:                  常规
+
+         Folder                                                 文本                                      255
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {CC2C69A7-7141-4E39-9ED1-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            2
+
+                  Required:                   False
+                  ResultType:                 0
+                  SourceField:                Folder
+
+                  SourceTable:                m09-mail0421
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           True
+
+
+         Size                                                   双精度型                                      8
+                  AggregateType:              -1
+
+                  AllowZeroLength:            False
+                  AppendOnly:                 False
+                  Attributes:                 固定长度
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DecimalPlaces:              自动
+                  DisplayControl:             文本框
+                  GUID:                       {guid {1DE52CEE-66D8-4884-AB82-
+
+                  OrdinalPosition:            3
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                Size
+
+                  SourceTable:                m09-mail0421
+                  TextAlign:                  常规
+
+
+         FileName                                               文本                                      255
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: m09-mail0421   AppendOnly:                 False
+
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DisplayControl:             文本框
+                  GUID:                       {guid {46BDA4C3-8762-4CE4-8707-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            4
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                FileName
+                  SourceTable:                m09-mail0421
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           True
+
+
+         Status                                                 文本                                      255
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {2F67D72D-B1CE-469D-B413-
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            5
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                Status
+
+                  SourceTable:                m09-mail0421
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           True
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: m09-ma                           写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: tblEmpList                                                                                           页: 13
+
+
+属性
+AlternateBackShad         100                          AlternateBackThem         -1
+
+AlternateBackTint         100                          BackShade:                100
+BackTint:                 100                          DatasheetForeThem         -1
+
+DatasheetGridline         -1                           DateCreated:              2017/4/25 18:03:44
+DefaultView:              2                            DisplayViewsOnSha         1
+
+FilterOnLoad:             False                        GUID:                     {guid {3A5B48AB-
+                                                                                 5668-4E25-A654-
+HideNewField:             False                        LastUpdated:              2017/4/26 15:56:44
+
+NameMap:                  长二进制数据                       OrderByOn:                False
+OrderByOnLoad:            True                         Orientation:              从左到右
+
+PublishToWeb:             1                            ReadOnlyWhenDisco         False
+RecordCount:              2233                         ThemeFontIndex:           -1
+TotalsRow:                False                        Updatable:                True
+
+
+
+
+列
+
+         名称                                                     类型                          长度
+         ID                                                     长整型                                       4
+
+                  AggregateType:              -1
+                  AllowZeroLength:            False
+
+                  AppendOnly:                 False
+                  Attributes:                 固定长度, 自动增量
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  GUID:                       {guid {73C534EF-F52C-4455-AC7B-
+
+                  OrdinalPosition:            0
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                ID
+
+                  SourceTable:                tblEmpList
+                  TextAlign:                  常规
+
+
+         EmpID                                                  文本                                       10
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DisplayControl:             文本框
+                  GUID:                       {guid {CDBEDE5A-6A59-4BE3-A5A2-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: tblEmpList     OrdinalPosition:            1
+
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                EmpID
+                  SourceTable:                tblEmpList
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           True
+
+
+         EmpName                                                文本                                       20
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DisplayControl:             文本框
+                  GUID:                       {guid {9F45F0F3-5CC0-459C-A2F2-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            2
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                EmpName
+                  SourceTable:                tblEmpList
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           True
+
+
+         Branch                                                 文本                                       10
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  DisplayControl:             文本框
+                  GUID:                       {guid {9B24FA3B-6F7B-4149-862E-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            3
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                Branch
+
+                  SourceTable:                tblEmpList
+                  TextAlign:                  常规
+                  UnicodeCompressio           True
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: tblEmpDeptName                                               文本                                       2015
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {7A2E4476-EF58-457E-9D63-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            4
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                DeptName
+
+                  SourceTable:                tblEmpList
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           True
+
+
+         ObtainDate                                             日期/时间                                     8
+                  AggregateType:              -1
+                  AllowZeroLength:            False
+
+                  AppendOnly:                 False
+                  Attributes:                 固定长度
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+                  GUID:                       {guid {601C51FD-C9EE-4B6C-B79E-
+
+                  IMEMode:                    2
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            5
+                  Required:                   False
+
+                  ResultType:                 0
+                  ShowDatePicker:             为日期
+
+                  SourceField:                ObtainDate
+                  SourceTable:                tblEmpList
+                  TextAlign:                  常规
+
+
+         CompressEmpID                                          文本                                       10
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: tblEmpList     CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {B3DC28E1-17CD-424C-AFAC-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            6
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                CompressEmpID
+
+                  SourceTable:                tblEmpList
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           True
+
+
+
+表索引
+         名称                                       字段数
+
+         CompressEmpID                            1
+                  Clustered:                  False
+
+                  DistinctCount:              1
+                  Foreign:                    False
+                  IgnoreNulls:                False
+
+                  Name:                       CompressEmpID
+                  Primary:                    False
+                  Required:                   False
+
+                  Unique:                     False
+                  字段:
+                  CompressEmpID               升序
+
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: tblNotes通讯录导入0428A                                                                                   页: 17
+
+
+属性
+AlternateBackShad         100                          AlternateBackThem         -1
+
+AlternateBackTint         100                          BackShade:                100
+BackTint:                 100                          DatasheetForeThem         -1
+
+DatasheetGridline         -1                           DateCreated:              2017/4/28 13:25:49
+DefaultView:              2                            DisplayViewsOnSha         1
+
+FilterOnLoad:             False                        GUID:                     {guid {E0237B91-
+                                                                                 9B9D-4EBF-8241-
+HideNewField:             False                        LastUpdated:              2017/5/4 17:37:56
+
+NameMap:                  长二进制数据                       OrderByOn:                False
+OrderByOnLoad:            True                         Orientation:              从左到右
+
+PublishToWeb:             1                            ReadOnlyWhenDisco         False
+RecordCount:              7852                         ThemeFontIndex:           -1
+TotalsRow:                False                        Updatable:                True
+
+
+
+
+列
+
+         名称                                                     类型                          长度
+         ID                                                     长整型                                       4
+
+                  AggregateType:              -1
+                  AllowZeroLength:            False
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长, 自动增量
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  GUID:                       {guid {B6D3FC4F-81A6-4206-9650-
+
+                  OrdinalPosition:            0
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                ID
+
+                  SourceTable:                tblNotes通讯录导入0428A
+                  TextAlign:                  常规
+
+
+         名称                                                     文本                                      255
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DisplayControl:             文本框
+                  Format:                     @
+
+                  GUID:                       {guid {B4F02C47-14DE-4E03-ADE2-
+                  IMEMode:                    1
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: tblNotes通讯录导入04IMESentenceMode:            3
+
+                  OrdinalPosition:            1
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                名称
+
+                  SourceTable:                tblNotes通讯录导入0428A
+                  TextAlign:                  常规
+                  UnicodeCompressio           False
+
+
+         Path                                                   文本                                      255
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  DisplayControl:             文本框
+
+                  Format:                     @
+                  GUID:                       {guid {D0811EAD-CA30-4608-9C68-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+                  OrdinalPosition:            2
+
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                Path
+                  SourceTable:                tblNotes通讯录导入0428A
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           False
+
+
+         电子邮件                                                   文本                                      255
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DisplayControl:             文本框
+                  Format:                     @
+
+                  GUID:                       {guid {34DEA10B-19AE-4BC0-B3B6-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            3
+
+                  Required:                   False
+                  ResultType:                 0
+                  SourceField:                电子邮件
+
+                  SourceTable:                tblNotes通讯录导入0428A
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: tblNotes通讯录导入04TextAlign:                  常规
+
+                  UnicodeCompressio           False
+
+
+         Internet                                               文本                                      255
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DisplayControl:             文本框
+                  Format:                     @
+                  GUID:                       {guid {0F9B6FC8-3051-4820-9345-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            4
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                Internet
+
+                  SourceTable:                tblNotes通讯录导入0428A
+                  TextAlign:                  常规
+                  UnicodeCompressio           False
+
+
+         邮件服务器                                                  文本                                      255
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  DisplayControl:             文本框
+
+                  Format:                     @
+                  GUID:                       {guid {D5D247EA-1F86-4E40-9548-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+                  OrdinalPosition:            5
+
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                邮件服务器
+                  SourceTable:                tblNotes通讯录导入0428A
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           False
+
+
+         分析结果                                                   文本                                       20
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+表: tblNotes通讯录导入04AppendOnly:                 False
+
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DisplayControl:             文本框
+                  GUID:                       {guid {FFD52D33-F6B9-4AC7-A69D-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            6
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                分析结果
+                  SourceTable:                tblNotes通讯录导入0428A
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           True
+
+
+
+表索引
+
+         名称                                       字段数
+
+         ID                                       1
+                  Clustered:                  False
+                  DistinctCount:              7852
+
+                  Foreign:                    False
+                  IgnoreNulls:                False
+                  Name:                       ID
+
+                  Primary:                    True
+                  Required:                   True
+                  Unique:                     True
+
+                  字段:
+                  ID                          升序
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+组权限
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 1更新压缩员工代码去掉3个0                                                                                      页: 21
+
+
+属性
+DateCreated:              2017/4/26 15:56:11           DefaultView:              2
+
+DOL:                      长二进制数据                       FailOnError:              False
+FilterOnLoad:             False                        GUID:                     {guid {A5F1622A-
+                                                                                 A74C-42E7-A406-
+
+LastUpdated:              2017/4/26 16:08:10           MaxRecords:               0
+ODBCTimeout:              60                           OrderByOn:                False
+
+OrderByOnLoad:            True                         Orientation:              从左到右
+PublishToWeb:             1                            RecordLocks:              已编辑的记录
+
+RecordsAffected:          0                            RecordsetType:            动态集
+ReturnsRecords:           True                         TotalsRow:                False
+
+Type:                     48                           Updatable:                True
+UseTransaction:           True
+
+
+
+SQL
+
+         UPDATE tblEmpList SET tblEmpList.CompressEmpID =
+         Left([EmpID],2)+Mid([EmpID],6,3)
+         WHERE (((Left([EmpID],1))>"9") AND ((Mid([EmpID],2,1))>"9") AND
+         ((Mid([EmpID],3,1))="0") AND ((Mid([EmpID],4,1))="0") AND
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 2更新压缩员工代码去掉2个0                                                                                      页: 22
+
+
+属性
+DateCreated:              2017/4/26 16:08:26           DefaultView:              2
+
+DOL:                      长二进制数据                       FailOnError:              False
+FilterOnLoad:             False                        GUID:                     {guid {1256C3D8-
+                                                                                 90C1-4328-AF6D-
+
+LastUpdated:              2017/4/26 16:54:31           MaxRecords:               0
+ODBCTimeout:              60                           OrderByOn:                False
+
+OrderByOnLoad:            True                         Orientation:              从左到右
+PublishToWeb:             1                            RecordLocks:              已编辑的记录
+
+RecordsAffected:          0                            RecordsetType:            动态集
+ReturnsRecords:           True                         TotalsRow:                False
+
+Type:                     48                           Updatable:                True
+UseTransaction:           True
+
+
+
+SQL
+
+         UPDATE tblEmpList SET tblEmpList.CompressEmpID =
+         Left([EmpID],2)+Mid([EmpID],5,4)
+         WHERE (((tblEmpList.CompressEmpID) Is Null) AND
+         ((Left([EmpID],1))>"9") AND ((Mid([EmpID],2,1))>"9") AND
+         ((Mid([EmpID],3,1))="0") AND ((Mid([EmpID],4,1))="0") AND
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 3更新压缩员工代码去掉1个0                                                                                      页: 23
+
+
+属性
+DateCreated:              2017/4/26 16:55:17           DefaultView:              2
+
+DOL:                      长二进制数据                       FailOnError:              False
+FilterOnLoad:             False                        GUID:                     {guid {29D0ADE1-
+                                                                                 B127-4259-956C-
+
+LastUpdated:              2017/4/26 16:57:49           MaxRecords:               0
+ODBCTimeout:              60                           OrderByOn:                False
+
+OrderByOnLoad:            True                         Orientation:              从左到右
+PublishToWeb:             1                            RecordLocks:              已编辑的记录
+
+RecordsAffected:          0                            RecordsetType:            动态集
+ReturnsRecords:           True                         TotalsRow:                False
+
+Type:                     48                           Updatable:                True
+UseTransaction:           True
+
+
+
+SQL
+
+         UPDATE tblEmpList SET tblEmpList.CompressEmpID =
+         Left([EmpID],2)+Mid([EmpID],4,4)
+         WHERE (((tblEmpList.CompressEmpID) Is Null) AND
+         ((Left([EmpID],1))>"9") AND ((Mid([EmpID],2,1))>"9") AND
+         ((Mid([EmpID],3,1))="0") AND ((Mid([EmpID],4,1)) Between "0" And
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 4四位字母更新压缩员工代码去掉3个0                                                                                  页: 24
+
+
+属性
+DateCreated:              2017/4/27 7:25:41            DefaultView:              2
+
+DOL:                      长二进制数据                       FailOnError:              False
+FilterOnLoad:             False                        GUID:                     {guid {614853CD-
+                                                                                 8B82-4A80-9877-
+
+LastUpdated:              2017/4/27 7:32:03            MaxRecords:               0
+ODBCTimeout:              60                           OrderByOn:                False
+
+OrderByOnLoad:            True                         Orientation:              从左到右
+PublishToWeb:             1                            RecordLocks:              已编辑的记录
+
+RecordsAffected:          0                            RecordsetType:            动态集
+ReturnsRecords:           True                         TotalsRow:                False
+
+Type:                     48                           Updatable:                True
+UseTransaction:           True
+
+
+
+SQL
+
+         UPDATE tblEmpList SET tblEmpList.CompressEmpID =
+         Left([EmpID],4)+Mid([EmpID],8,3)
+         WHERE (((Left([EmpID],1))>"9" And (Left([EmpID],1))>"9") AND
+         ((Mid([EmpID],2,1))>"9") AND ((Mid([EmpID],3,1))>"9") AND
+         ((Mid([EmpID],4,1))>"9") AND ((Mid([EmpID],5,1))="0") AND
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 5四位字母更新压缩员工代码去掉2个0                                                                                  页: 25
+
+
+属性
+DateCreated:              2017/4/26 16:59:15           DefaultView:              2
+
+DOL:                      长二进制数据                       FailOnError:              False
+FilterOnLoad:             False                        GUID:                     {guid {C30B5C28-
+                                                                                 0895-4A18-B61A-
+
+LastUpdated:              2017/4/27 7:31:53            MaxRecords:               0
+ODBCTimeout:              60                           OrderByOn:                False
+
+OrderByOnLoad:            True                         Orientation:              从左到右
+PublishToWeb:             1                            RecordLocks:              已编辑的记录
+
+RecordsAffected:          0                            RecordsetType:            动态集
+ReturnsRecords:           True                         TotalsRow:                False
+
+Type:                     48                           Updatable:                True
+UseTransaction:           True
+
+
+
+SQL
+
+         UPDATE tblEmpList SET tblEmpList.CompressEmpID =
+         Left([EmpID],4)+Mid([EmpID],7,4)
+         WHERE (((tblEmpList.CompressEmpID) Is Null) AND
+         ((Left([EmpID],1))>"9") AND ((Mid([EmpID],2,1))>"9") AND
+         ((Mid([EmpID],3,1))>"9") AND ((Mid([EmpID],4,1))>"9") AND
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 6四位字母更新压缩员工代码去掉1个0                                                                                  页: 26
+
+
+属性
+DateCreated:              2017/4/27 7:30:32            DefaultView:              2
+
+DOL:                      长二进制数据                       FailOnError:              False
+FilterOnLoad:             False                        GUID:                     {guid {B8A36B4D-
+                                                                                 8A85-4774-B483-
+
+LastUpdated:              2017/4/27 7:32:35            MaxRecords:               0
+ODBCTimeout:              60                           OrderByOn:                False
+
+OrderByOnLoad:            True                         Orientation:              从左到右
+PublishToWeb:             1                            RecordLocks:              已编辑的记录
+
+RecordsAffected:          0                            RecordsetType:            动态集
+ReturnsRecords:           True                         TotalsRow:                False
+
+Type:                     48                           Updatable:                True
+UseTransaction:           True
+
+
+
+SQL
+
+         UPDATE tblEmpList SET tblEmpList.CompressEmpID =
+         Left([EmpID],4)+Mid([EmpID],6,4)
+         WHERE (((tblEmpList.CompressEmpID) Is Null) AND
+         ((Left([EmpID],1))>"9") AND ((Mid([EmpID],2,1))>"9") AND
+         ((Mid([EmpID],3,1))>"9") AND ((Mid([EmpID],4,1))>"9") AND
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 7四位字母更新压缩员工代码去掉3个0                                                                                  页: 27
+
+
+属性
+DateCreated:              2017/4/27 7:33:31            DefaultView:              2
+
+DOL:                      长二进制数据                       FailOnError:              False
+FilterOnLoad:             False                        GUID:                     {guid {BD04673C-
+                                                                                 42C0-43FD-8FCD-
+
+LastUpdated:              2017/4/27 7:34:51            MaxRecords:               0
+ODBCTimeout:              60                           OrderByOn:                False
+
+OrderByOnLoad:            True                         Orientation:              从左到右
+PublishToWeb:             1                            RecordLocks:              已编辑的记录
+
+RecordsAffected:          0                            RecordsetType:            动态集
+ReturnsRecords:           True                         TotalsRow:                False
+
+Type:                     48                           Updatable:                True
+UseTransaction:           True
+
+
+
+SQL
+
+         UPDATE tblEmpList SET tblEmpList.CompressEmpID =
+         Left([EmpID],3)+Mid([EmpID],7,3)
+         WHERE (((Left([EmpID],1))>"9") AND ((Mid([EmpID],2,1))>"9") AND
+         ((Mid([EmpID],3,1))>"9") AND ((Mid([EmpID],4,1))="0") AND
+         ((Mid([EmpID],5,1))="0") AND ((Mid([EmpID],6,1))="0"));
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 8四位字母更新压缩员工代码去掉2个0                                                                                  页: 28
+
+
+属性
+DateCreated:              2017/4/27 7:35:07            DefaultView:              2
+
+DOL:                      长二进制数据                       FailOnError:              False
+FilterOnLoad:             False                        GUID:                     {guid {1D4318E9-
+                                                                                 E5A5-4DDD-BDFF-
+
+LastUpdated:              2017/4/27 7:35:50            MaxRecords:               0
+ODBCTimeout:              60                           OrderByOn:                False
+
+OrderByOnLoad:            True                         Orientation:              从左到右
+PublishToWeb:             1                            RecordLocks:              已编辑的记录
+
+RecordsAffected:          0                            RecordsetType:            动态集
+ReturnsRecords:           True                         TotalsRow:                False
+
+Type:                     48                           Updatable:                True
+UseTransaction:           True
+
+
+
+SQL
+
+         UPDATE tblEmpList SET tblEmpList.CompressEmpID =
+         Left([EmpID],3)+Mid([EmpID],6,4)
+         WHERE (((tblEmpList.CompressEmpID) Is Null) AND
+         ((Left([EmpID],1))>"9") AND ((Mid([EmpID],2,1))>"9") AND
+         ((Mid([EmpID],3,1))>"9") AND ((Mid([EmpID],4,1))="0") AND
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 9四位字母更新压缩员工代码去掉1个0                                                                                  页: 29
+
+
+属性
+DateCreated:              2017/4/27 7:36:06            DefaultView:              2
+
+DOL:                      长二进制数据                       FailOnError:              False
+FilterOnLoad:             False                        GUID:                     {guid {9F2E8FC6-
+                                                                                 63F3-4198-829B-
+
+LastUpdated:              2017/4/27 7:37:15            MaxRecords:               0
+ODBCTimeout:              60                           OrderByOn:                False
+
+OrderByOnLoad:            True                         Orientation:              从左到右
+PublishToWeb:             1                            RecordLocks:              已编辑的记录
+
+RecordsAffected:          0                            RecordsetType:            动态集
+ReturnsRecords:           True                         TotalsRow:                False
+
+Type:                     48                           Updatable:                True
+UseTransaction:           True
+
+
+
+SQL
+
+         UPDATE tblEmpList SET tblEmpList.CompressEmpID =
+         Left([EmpID],3)+Mid([EmpID],5,4)
+         WHERE (((tblEmpList.CompressEmpID) Is Null) AND
+         ((Left([EmpID],1))>"9") AND ((Mid([EmpID],2,1))>"9") AND
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: qryM08-mail0421                                                                                     页: 30
+
+
+属性
+AlternateBackShad         100                          AlternateBackThem         -1
+
+AlternateBackTint         100                          BackShade:                100
+BackTint:                 100                          DatasheetForeThem         -1
+
+DatasheetGridline         -1                           DateCreated:              2017/4/26 15:45:59
+DefaultView:              2                            DisplayViewsOnSha         1
+
+DOL:                      长二进制数据                       FilterOnLoad:             False
+GUID:                     {guid {2344A409-             HideNewField:             False
+                          3DF6-4CF9-87C4-
+
+LastUpdated:              2017/4/27 7:48:32            MaxRecords:               0
+NameMap:                  长二进制数据                       ODBCTimeout:              60
+
+OrderByOn:                False                        OrderByOnLoad:            True
+Orientation:              从左到右                         PublishToWeb:             1
+ReadOnlyWhenDisco         False                        RecordLocks:              不锁定
+
+RecordsAffected:          0                            RecordsetType:            动态集
+ReturnsRecords:           True                         ThemeFontIndex:           -1
+
+TotalsRow:                False                        Type:                     0
+Updatable:                True
+
+
+
+
+SQL
+         SELECT [m08-mail0421].ID, [m08-mail0421].mDate, [m08-
+         mail0421].Folder, [m08-mail0421].Size, [m08-mail0421].FileName,
+         [m08-mail0421].Status, Left([FileName],InStr([FileName],".nsf")-1)
+          AS FilePreStr
+         FROM [m08-mail0421];
+
+
+
+列
+         名称                                                     类型                          长度
+
+         ID                                                     长整型                                       4
+
+                  AggregateType:              -1
+                  AllowZeroLength:            False
+                  AppendOnly:                 False
+
+                  Attributes:                 固定长度, 自动增量, 可更新
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                1
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              True
+                  GUID:                       {guid {7D7B21C1-F2E2-4929-8969-
+                  OrdinalPosition:            0
+
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                ID
+                  SourceTable:                m08-mail0421
+
+                  TextAlign:                  常规
+
+
+         mDate                                                  日期/时间                                     8
+                  AggregateType:              -1
+                  AllowZeroLength:            False
+
+                  AppendOnly:                 False
+                  Attributes:                 固定长度, 可更新
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: qryM08-mail042CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                3450
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              True
+                  GUID:                       {guid {E33DC6BE-80A1-4E01-AF12-
+                  IMEMode:                    2
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            1
+
+                  Required:                   False
+                  ResultType:                 0
+
+                  ShowDatePicker:             为日期
+                  SourceField:                mDate
+
+                  SourceTable:                m08-mail0421
+                  TextAlign:                  常规
+
+
+         Folder                                                 文本                                      255
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长, 可更新
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              True
+
+                  DisplayControl:             文本框
+                  GUID:                       {guid {D3A7A949-F991-4FA2-AADE-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            2
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                Folder
+                  SourceTable:                m08-mail0421
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           True
+
+
+         Size                                                   双精度型                                      8
+
+                  AggregateType:              -1
+                  AllowZeroLength:            False
+                  AppendOnly:                 False
+
+                  Attributes:                 固定长度, 可更新
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              True
+                  DecimalPlaces:              自动
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {49AF7763-8623-4C19-9FB8-
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: qryM08-mail042OrdinalPosition:            3
+
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                Size
+                  SourceTable:                m08-mail0421
+
+                  TextAlign:                  常规
+
+         FileName                                               文本                                      255
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长, 可更新
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              True
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {84A9B6B3-2F19-4D9A-9C9D-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            4
+
+                  Required:                   False
+                  ResultType:                 0
+                  SourceField:                FileName
+
+                  SourceTable:                m08-mail0421
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           True
+
+
+         Status                                                 文本                                      255
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+                  Attributes:                 可变长, 可更新
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                3675
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              True
+
+                  DisplayControl:             文本框
+                  GUID:                       {guid {E4280E56-4EFC-4506-8CC1-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            5
+
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                Status
+                  SourceTable:                m08-mail0421
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           True
+
+
+         FilePreStr                                             文本                                        0
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: qryM08-mail042AggregateType:              -1
+
+                  AllowZeroLength:            False
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长
+                  CollatingOrder:             General
+
+                  ColumnHidden:               False
+                  ColumnWidth:                2040
+                  DataUpdatable:              False
+
+                  GUID:                       {guid {932A0509-1249-447B-9FBB-
+                  OrdinalPosition:            6
+
+                  Required:                   False
+                  SourceField:                FileName
+
+                  SourceTable:                m08-mail0421
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: qryM08-mail0421无状态                                                                                  页: 34
+
+
+属性
+AlternateBackShad         100                          AlternateBackThem         -1
+
+AlternateBackTint         100                          BackShade:                100
+BackTint:                 100                          DatasheetForeThem         -1
+
+DatasheetGridline         -1                           DateCreated:              2017/4/27 7:48:32
+DefaultView:              2                            DisplayViewsOnSha         1
+
+DOL:                      长二进制数据                       FilterOnLoad:             False
+GUID:                     {guid {5101FF61-             HideNewField:             False
+                          E316-4B59-BFF1-
+
+LastUpdated:              2017/4/27 7:51:32            MaxRecords:               0
+NameMap:                  长二进制数据                       ODBCTimeout:              60
+
+OrderByOn:                False                        OrderByOnLoad:            True
+Orientation:              从左到右                         PublishToWeb:             1
+ReadOnlyWhenDisco         False                        RecordLocks:              不锁定
+
+RecordsAffected:          0                            RecordsetType:            动态集
+ReturnsRecords:           True                         ThemeFontIndex:           -1
+
+TotalsRow:                False                        Type:                     0
+Updatable:                True
+
+
+
+
+SQL
+         SELECT [qryM08-mail0421].*
+         FROM [qryM08-mail0421]
+         WHERE ((([qryM08-mail0421].Status) Is Null));
+
+
+
+列
+
+         名称                                                     类型                          长度
+
+         ID                                                     长整型                                       4
+                  AggregateType:              -1
+
+                  AllowZeroLength:            False
+                  AppendOnly:                 False
+
+                  Attributes:                 固定长度, 自动增量, 可更新
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                1
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+                  DataUpdatable:              True
+
+                  GUID:                       {guid {7CBE47F1-93B1-4678-8EF6-
+                  OrdinalPosition:            0
+
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                ID
+                  SourceTable:                m08-mail0421
+
+                  TextAlign:                  常规
+
+         mDate                                                  日期/时间                                     8
+
+                  AggregateType:              -1
+                  AllowZeroLength:            False
+
+                  AppendOnly:                 False
+                  Attributes:                 固定长度, 可更新
+
+                  CollatingOrder:             Simplified Chinese
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: qryM08-mail042ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                3450
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              True
+
+                  GUID:                       {guid {E5C38117-C0FE-4619-ACAF-
+                  IMEMode:                    2
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            1
+                  Required:                   False
+
+                  ResultType:                 0
+                  ShowDatePicker:             为日期
+
+                  SourceField:                mDate
+                  SourceTable:                m08-mail0421
+
+                  TextAlign:                  常规
+
+
+         Folder                                                 文本                                      255
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长, 可更新
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              True
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {2E6C4891-5E5A-405F-8ECB-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            2
+
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                Folder
+                  SourceTable:                m08-mail0421
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           True
+
+
+         Size                                                   双精度型                                      8
+                  AggregateType:              -1
+
+                  AllowZeroLength:            False
+                  AppendOnly:                 False
+
+                  Attributes:                 固定长度, 可更新
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              True
+
+                  DecimalPlaces:              自动
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {C71DFA18-3C56-465F-BFF7-
+                  OrdinalPosition:            3
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: qryM08-mail042Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                Size
+
+                  SourceTable:                m08-mail0421
+                  TextAlign:                  常规
+
+
+         FileName                                               文本                                      255
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长, 可更新
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+                  DataUpdatable:              True
+
+                  DisplayControl:             文本框
+                  GUID:                       {guid {0713C3AF-53C0-4AAD-903C-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            4
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                FileName
+                  SourceTable:                m08-mail0421
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           True
+
+
+         Status                                                 文本                                      255
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长, 可更新
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                3675
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              True
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {DEC72C82-6826-40CB-BB1E-
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            5
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                Status
+
+                  SourceTable:                m08-mail0421
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           True
+
+         FilePreStr                                             文本                                        0
+
+                  AggregateType:              -1
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: qryM08-mail042AllowZeroLength:            False
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+
+                  CollatingOrder:             General
+                  ColumnHidden:               False
+
+                  ColumnWidth:                2040
+                  DataUpdatable:              False
+                  GUID:                       {guid {C3BE958C-E938-4490-8E89-
+
+                  OrdinalPosition:            6
+                  Required:                   False
+
+                  SourceField:                FileName
+                  SourceTable:                m08-mail0421
+
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: qry通讯录文件名                                                                                           页: 38
+
+
+属性
+AlternateBackShad         100                          AlternateBackThem         -1
+
+AlternateBackTint         100                          BackShade:                100
+BackTint:                 100                          DatasheetForeThem         -1
+
+DatasheetGridline         -1                           DateCreated:              2017/4/28 11:16:07
+DefaultView:              2                            DisplayViewsOnSha         1
+
+DOL:                      长二进制数据                       FilterOnLoad:             False
+GUID:                     {guid {8EED8510-             HideNewField:             False
+                          179D-4B80-8C88-
+
+LastUpdated:              2017/5/4 17:47:12            MaxRecords:               0
+NameMap:                  长二进制数据                       ODBCTimeout:              60
+
+OrderByOn:                False                        OrderByOnLoad:            True
+Orientation:              从左到右                         PublishToWeb:             1
+ReadOnlyWhenDisco         False                        RecordLocks:              不锁定
+
+RecordsAffected:          0                            RecordsetType:            动态集
+ReturnsRecords:           True                         ThemeFontIndex:           -1
+
+TotalsRow:                False                        Type:                     0
+Updatable:                True
+
+
+
+
+SQL
+         SELECT tblNotes通讯录导入0428A.*, Right([Path],Len([Path])-
+         InStr([Path],"\")) AS Filename
+         FROM tblNotes通讯录导入0428A
+         WHERE (((tblNotes通讯录导入0428A.Path)<>"isnull"));
+
+
+
+
+列
+         名称                                                     类型                          长度
+
+         ID                                                     长整型                                       4
+
+                  AggregateType:              -1
+                  AllowZeroLength:            False
+                  AppendOnly:                 False
+
+                  Attributes:                 固定长度, 自动增量, 可更新
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              True
+                  GUID:                       {guid {B6D3FC4F-81A6-4206-9650-
+                  OrdinalPosition:            0
+
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                ID
+                  SourceTable:                tblNotes通讯录导入0428A
+
+                  TextAlign:                  常规
+
+
+         名称                                                     文本                                      255
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长, 可更新
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: qry通讯录文件名     CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              True
+                  DisplayControl:             文本框
+                  Format:                     @
+
+                  GUID:                       {guid {B4F02C47-14DE-4E03-ADE2-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            1
+
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                名称
+                  SourceTable:                tblNotes通讯录导入0428A
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           False
+
+
+         Path                                                   文本                                      255
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长, 可更新
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                2310
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              True
+
+                  DisplayControl:             文本框
+                  Format:                     @
+
+                  GUID:                       {guid {D0811EAD-CA30-4608-9C68-
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            2
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                Path
+
+                  SourceTable:                tblNotes通讯录导入0428A
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           False
+
+         电子邮件                                                   文本                                      255
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长, 可更新
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              True
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: qry通讯录文件名     DisplayControl:             文本框
+
+                  Format:                     @
+                  GUID:                       {guid {34DEA10B-19AE-4BC0-B3B6-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            3
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                电子邮件
+                  SourceTable:                tblNotes通讯录导入0428A
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           False
+
+
+         Internet                                               文本                                      255
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长, 可更新
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              True
+                  DisplayControl:             文本框
+                  Format:                     @
+
+                  GUID:                       {guid {0F9B6FC8-3051-4820-9345-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            4
+
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                Internet
+                  SourceTable:                tblNotes通讯录导入0428A
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           False
+
+
+         邮件服务器                                                  文本                                      255
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长, 可更新
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              True
+
+                  DisplayControl:             文本框
+                  Format:                     @
+
+                  GUID:                       {guid {D5D247EA-1F86-4E40-9548-
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            5
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: qry通讯录文件名     Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                邮件服务器
+
+                  SourceTable:                tblNotes通讯录导入0428A
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           False
+
+         分析结果                                                   文本                                       20
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长, 可更新
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              True
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {FFD52D33-F6B9-4AC7-A69D-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            6
+
+                  Required:                   False
+                  ResultType:                 0
+                  SourceField:                分析结果
+
+                  SourceTable:                tblNotes通讯录导入0428A
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           True
+
+
+         Filename                                               文本                                        0
+                  AggregateType:              -1
+
+                  AllowZeroLength:            False
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+
+                  CollatingOrder:             General
+                  DataUpdatable:              False
+
+                  GUID:                       {guid {1FF05EAC-5D52-46BB-AFDC-
+                  OrdinalPosition:            7
+
+                  Required:                   False
+                  SourceField:                Path
+
+                  SourceTable:                tblNotes通讯录导入0428A
+
+
+
+表索引
+         名称                                       字段数
+
+         ID                                       1
+                  Clustered:                  False
+                  DistinctCount:              7852
+
+                  Foreign:                    False
+                  IgnoreNulls:                False
+                  Name:                       ID
+
+                  Primary:                    True
+                  Required:                   True
+                  Unique:                     True
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: qry通讯录文件名     字段:                                                                                   页: 42
+
+                  ID                          升序
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: updM08-mail0421Status去掉0后一样                                                                         页: 43
+
+
+属性
+DateCreated:              2017/4/27 7:44:11            DOL:                      长二进制数据
+
+FailOnError:              False                        GUID:                     {guid {B4E1CFA8-
+                                                                                 5A77-41C2-9630-
+LastUpdated:              2017/4/27 7:44:11            MaxRecords:               0
+
+ODBCTimeout:              60                           Orientation:              从左到右
+PublishToWeb:             1                            RecordLocks:              已编辑的记录
+
+RecordsAffected:          0                            ReturnsRecords:           True
+Type:                     48                           Updatable:                True
+
+UseTransaction:           True
+
+
+
+SQL
+
+         UPDATE [qryM08-mail0421] INNER JOIN tblEmpList ON [qryM08-
+         mail0421].FilePreStr = tblEmpList.CompressEmpID SET [qryM08-
+         mail0421].Status = "员工代码去掉0后与邮件文件一样";
+
+
+
+
+
+用户权限
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+组权限
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: updM08-mail0421Status在职人员                                                                           页: 44
+
+
+属性
+DateCreated:              2017/4/26 15:48:28           DOL:                      长二进制数据
+
+FailOnError:              False                        GUID:                     {guid {0CAF0D74-
+                                                                                 3442-4274-A36F-
+LastUpdated:              2017/4/26 15:49:26           MaxRecords:               0
+
+ODBCTimeout:              60                           Orientation:              从左到右
+PublishToWeb:             1                            RecordLocks:              已编辑的记录
+
+RecordsAffected:          0                            ReturnsRecords:           True
+Type:                     48                           Updatable:                True
+
+UseTransaction:           True
+
+
+
+SQL
+
+         UPDATE [qryM08-mail0421] INNER JOIN tblEmpList ON [qryM08-
+         mail0421].FilePreStr = tblEmpList.EmpID SET [qryM08-
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 查询1                                                                                                 页: 45
+
+
+属性
+AlternateBackShad         100                          AlternateBackThem         -1
+
+AlternateBackTint         100                          BackShade:                100
+BackTint:                 100                          DatasheetForeThem         -1
+
+DatasheetGridline         -1                           DateCreated:              2017/4/27 7:32:47
+DefaultView:              2                            DisplayViewsOnSha         1
+
+DOL:                      长二进制数据                       FilterOnLoad:             False
+GUID:                     {guid {DA9FB017-             HideNewField:             False
+                          BA8E-436D-A1C9-
+
+LastUpdated:              2017/4/27 7:32:47            MaxRecords:               0
+NameMap:                  长二进制数据                       ODBCTimeout:              60
+
+OrderByOn:                False                        OrderByOnLoad:            True
+Orientation:              从左到右                         PublishToWeb:             1
+ReadOnlyWhenDisco         False                        RecordLocks:              不锁定
+
+RecordsAffected:          0                            RecordsetType:            动态集
+ReturnsRecords:           True                         ThemeFontIndex:           -1
+
+TotalsRow:                False                        Type:                     0
+Updatable:                True
+
+
+
+
+SQL
+         SELECT tblEmpList.*
+         FROM tblEmpList
+         WHERE (((tblEmpList.CompressEmpID) Is Null));
+
+
+
+列
+
+         名称                                                     类型                          长度
+
+         ID                                                     长整型                                       4
+                  AggregateType:              -1
+
+                  AllowZeroLength:            False
+                  AppendOnly:                 False
+
+                  Attributes:                 固定长度, 自动增量, 可更新
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+                  DataUpdatable:              True
+
+                  GUID:                       {guid {73C534EF-F52C-4455-AC7B-
+                  OrdinalPosition:            0
+
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                ID
+                  SourceTable:                tblEmpList
+
+                  TextAlign:                  常规
+
+         EmpID                                                  文本                                       10
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长, 可更新
+
+                  CollatingOrder:             Simplified Chinese
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 查询1           ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              True
+
+                  DisplayControl:             文本框
+                  GUID:                       {guid {CDBEDE5A-6A59-4BE3-A5A2-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+                  OrdinalPosition:            1
+
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                EmpID
+                  SourceTable:                tblEmpList
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           True
+
+
+         EmpName                                                文本                                       20
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长, 可更新
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+                  DataUpdatable:              True
+
+                  DisplayControl:             文本框
+                  GUID:                       {guid {9F45F0F3-5CC0-459C-A2F2-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            2
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                EmpName
+                  SourceTable:                tblEmpList
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           True
+
+
+         Branch                                                 文本                                       10
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长, 可更新
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              True
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {9B24FA3B-6F7B-4149-862E-
+                  IMEMode:                    1
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 查询1           IMESentenceMode:            3
+
+                  OrdinalPosition:            3
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                Branch
+
+                  SourceTable:                tblEmpList
+                  TextAlign:                  常规
+                  UnicodeCompressio           True
+
+
+         DeptName                                               文本                                       20
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长, 可更新
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              True
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {7A2E4476-EF58-457E-9D63-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            4
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                DeptName
+
+                  SourceTable:                tblEmpList
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           True
+
+
+         ObtainDate                                             日期/时间                                     8
+                  AggregateType:              -1
+                  AllowZeroLength:            False
+
+                  AppendOnly:                 False
+                  Attributes:                 固定长度, 可更新
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              True
+                  GUID:                       {guid {601C51FD-C9EE-4B6C-B79E-
+
+                  IMEMode:                    2
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            5
+                  Required:                   False
+
+                  ResultType:                 0
+                  ShowDatePicker:             为日期
+
+                  SourceField:                ObtainDate
+                  SourceTable:                tblEmpList
+                  TextAlign:                  常规
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 查询1  CompressEmpID                                          文本                                       1048
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长, 可更新
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              True
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {B3DC28E1-17CD-424C-AFAC-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            6
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                CompressEmpID
+
+                  SourceTable:                tblEmpList
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           True
+
+
+
+表索引
+         名称                                       字段数
+
+         CompressEmpID                            1
+                  Clustered:                  False
+
+                  DistinctCount:              1
+                  Foreign:                    False
+                  IgnoreNulls:                False
+
+                  Name:                       CompressEmpID
+                  Primary:                    False
+                  Required:                   False
+
+                  Unique:                     False
+                  字段:
+                  CompressEmpID               升序
+
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 查询2                                                                                                 页: 49
+
+
+属性
+DateCreated:              2017/4/28 12:39:25           DefaultView:              2
+
+DOL:                      长二进制数据                       FilterOnLoad:             False
+GUID:                     {guid {8E6F6583-             LastUpdated:              2017/4/28 14:14:45
+                          76DD-4DA2-A781-
+
+MaxRecords:               0                            ODBCTimeout:              60
+OrderByOn:                False                        OrderByOnLoad:            True
+
+Orientation:              从左到右                         PublishToWeb:             1
+RecordLocks:              不锁定                          RecordsAffected:          0
+
+RecordsetType:            动态集                          ReturnsRecords:           True
+TotalsRow:                False                        Type:                     0
+
+Updatable:                True
+
+
+
+SQL
+         SELECT qry通讯录文件名.*, tblEmpList.*
+         FROM qry通讯录文件名 INNER JOIN tblEmpList ON
+         qry通讯录文件名.Filename = tblEmpList.CompressEmpID;
+
+
+
+
+列
+
+         名称                                                     类型                          长度
+         qry通讯录文件名.ID                                           长整型                                       4
+
+                  AggregateType:              -1
+                  AllowZeroLength:            False
+
+                  AppendOnly:                 False
+                  Attributes:                 固定长度, 自动增量
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  GUID:                       {guid {B6D3FC4F-81A6-4206-9650-
+
+                  OrdinalPosition:            0
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                ID
+                  SourceTable:                tblNotes通讯录导入0428A
+
+                  TextAlign:                  常规
+
+
+         名称                                                     文本                                      255
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DisplayControl:             文本框
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 查询2           Format:                     @
+
+                  GUID:                       {guid {B4F02C47-14DE-4E03-ADE2-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            1
+
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                名称
+                  SourceTable:                tblNotes通讯录导入0428A
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           False
+
+
+         Path                                                   文本                                      255
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                2310
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DisplayControl:             文本框
+                  Format:                     @
+
+                  GUID:                       {guid {D0811EAD-CA30-4608-9C68-
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            2
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                Path
+
+                  SourceTable:                tblNotes通讯录导入0428A
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           False
+
+         电子邮件                                                   文本                                      255
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  DisplayControl:             文本框
+
+                  Format:                     @
+                  GUID:                       {guid {34DEA10B-19AE-4BC0-B3B6-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            3
+                  Required:                   False
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 查询2           ResultType:                 0
+
+                  SourceField:                电子邮件
+                  SourceTable:                tblNotes通讯录导入0428A
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           False
+
+
+         Internet                                               文本                                      255
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DisplayControl:             文本框
+                  Format:                     @
+
+                  GUID:                       {guid {0F9B6FC8-3051-4820-9345-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            4
+
+                  Required:                   False
+                  ResultType:                 0
+                  SourceField:                Internet
+
+                  SourceTable:                tblNotes通讯录导入0428A
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           False
+
+
+         邮件服务器                                                  文本                                      255
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DisplayControl:             文本框
+                  Format:                     @
+                  GUID:                       {guid {D5D247EA-1F86-4E40-9548-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            5
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                邮件服务器
+
+                  SourceTable:                tblNotes通讯录导入0428A
+                  TextAlign:                  常规
+                  UnicodeCompressio           False
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 查询2  分析结果                                                   文本                                       2052
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {FFD52D33-F6B9-4AC7-A69D-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            6
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                分析结果
+
+                  SourceTable:                tblNotes通讯录导入0428A
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           True
+
+
+         Filename                                               文本                                        0
+                  AggregateType:              -1
+                  AllowZeroLength:            False
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+
+                  CollatingOrder:             General
+                  DataUpdatable:              False
+
+                  GUID:                       {guid {1FF05EAC-5D52-46BB-AFDC-
+                  OrdinalPosition:            7
+
+                  Required:                   False
+                  SourceField:                Path
+                  SourceTable:                tblNotes通讯录导入0428A
+
+
+         tblEmpList.ID                                          长整型                                       4
+
+                  AggregateType:              -1
+                  AllowZeroLength:            False
+
+                  AppendOnly:                 False
+                  Attributes:                 固定长度, 自动增量
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  GUID:                       {guid {73C534EF-F52C-4455-AC7B-
+
+                  OrdinalPosition:            8
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                ID
+                  SourceTable:                tblEmpList
+
+                  TextAlign:                  常规
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 查询2  EmpID                                                  文本                                       1053
+
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {CDBEDE5A-6A59-4BE3-A5A2-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            9
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                EmpID
+
+                  SourceTable:                tblEmpList
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           True
+
+
+         EmpName                                                文本                                       20
+                  AggregateType:              -1
+                  AllowZeroLength:            True
+
+                  AppendOnly:                 False
+                  Attributes:                 可变长
+
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+                  ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+                  DisplayControl:             文本框
+
+                  GUID:                       {guid {9F45F0F3-5CC0-459C-A2F2-
+                  IMEMode:                    1
+
+                  IMESentenceMode:            3
+                  OrdinalPosition:            10
+
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                EmpName
+                  SourceTable:                tblEmpList
+                  TextAlign:                  常规
+
+                  UnicodeCompressio           True
+
+
+         Branch                                                 文本                                       10
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+                  ColumnHidden:               False
+
+                  ColumnOrder:                默认
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 查询2           ColumnWidth:                默认
+
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DisplayControl:             文本框
+                  GUID:                       {guid {9B24FA3B-6F7B-4149-862E-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+                  OrdinalPosition:            11
+
+                  Required:                   False
+                  ResultType:                 0
+
+                  SourceField:                Branch
+                  SourceTable:                tblEmpList
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           True
+
+
+         DeptName                                               文本                                       20
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DisplayControl:             文本框
+                  GUID:                       {guid {7A2E4476-EF58-457E-9D63-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            12
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                DeptName
+                  SourceTable:                tblEmpList
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           True
+
+
+         ObtainDate                                             日期/时间                                     8
+
+                  AggregateType:              -1
+                  AllowZeroLength:            False
+
+                  AppendOnly:                 False
+                  Attributes:                 固定长度
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+
+                  DataUpdatable:              False
+                  GUID:                       {guid {601C51FD-C9EE-4B6C-B79E-
+
+                  IMEMode:                    2
+                  IMESentenceMode:            3
+                  OrdinalPosition:            13
+
+                  Required:                   False
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 查询2           ResultType:                 0
+
+                  ShowDatePicker:             为日期
+                  SourceField:                ObtainDate
+
+                  SourceTable:                tblEmpList
+                  TextAlign:                  常规
+
+
+         CompressEmpID                                          文本                                       10
+                  AggregateType:              -1
+
+                  AllowZeroLength:            True
+                  AppendOnly:                 False
+
+                  Attributes:                 可变长
+                  CollatingOrder:             Simplified Chinese
+
+                  ColumnHidden:               False
+                  ColumnOrder:                默认
+
+                  ColumnWidth:                默认
+                  CurrencyLCID:               0
+                  DataUpdatable:              False
+
+                  DisplayControl:             文本框
+                  GUID:                       {guid {B3DC28E1-17CD-424C-AFAC-
+
+                  IMEMode:                    1
+                  IMESentenceMode:            3
+
+                  OrdinalPosition:            14
+                  Required:                   False
+
+                  ResultType:                 0
+                  SourceField:                CompressEmpID
+                  SourceTable:                tblEmpList
+
+                  TextAlign:                  常规
+                  UnicodeCompressio           True
+
+
+
+表索引
+
+         名称                                       字段数
+
+         ID                                       1
+                  Clustered:                  False
+                  DistinctCount:              7852
+
+                  Foreign:                    False
+                  IgnoreNulls:                False
+                  Name:                       ID
+
+                  Primary:                    True
+                  Required:                   True
+                  Unique:                     True
+
+                  字段:
+                  ID                          升序
+         CompressEmpID                            1
+
+                  Clustered:                  False
+                  DistinctCount:              1
+                  Foreign:                    False
+
+                  IgnoreNulls:                False
+                  Name:                       CompressEmpID
+                  Primary:                    False
+
+                  Required:                   False
+                  Unique:                     False
+                  字段:
+
+                  CompressEmpID               升序
+
+
+
+用户权限
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 查询2                                                                                                 页: 56
+
+
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+查询: 查询3                                                                                                 页: 57
+
+
+属性
+DateCreated:              2017/5/4 17:47:12            DOL:                      长二进制数据
+
+FailOnError:              False                        GUID:                     {guid {6695345C-
+                                                                                 D7BC-45D0-AB50-
+LastUpdated:              2017/5/4 17:47:12            MaxRecords:               0
+
+ODBCTimeout:              60                           Orientation:              从左到右
+PublishToWeb:             1                            RecordLocks:              已编辑的记录
+
+RecordsAffected:          0                            ReturnsRecords:           True
+Type:                     48                           Updatable:                True
+
+UseTransaction:           True
+
+
+
+SQL
+
+         UPDATE tblEmpList INNER JOIN qry通讯录文件名 ON tblEmpList.EmpID =
+          qry通讯录文件名.Filename SET qry通讯录文件名.分析结果 =
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+                                    写入定义, 读取数据, 插入数据, 更新数据, 删除数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+模块: 模块1                                                                                                 页: 58
+
+
+属性
+Container:                Modules                      DateCreated:              2017/4/27 7:52:30
+
+LastUpdated:              2017/4/27 7:52:30            Owner:                    admin
+UserName:                 admin
+
+
+
+
+
+代码
+
+        1  Attribute VB_Name = "模块1"
+        2  Option Compare Database
+
+        3
+        4
+        5  Public Sub OutputReceipts()
+
+        6
+        7
+           '生成一组文本数据，每10个短名为一组，用于发送测试邮件给这些用户，
+           以验证他们是否在职在用。
+
+        8      '2017-5
+        9      'By Eddie
+
+       10      Dim db As Database
+       11      Dim rst As Recordset
+
+       12      Dim i As Integer
+       13
+
+       14      Set db = CurrentDb
+       15      Set rst = db.OpenRecordset("qryM08-mail0421无状态")
+       16
+
+       17      With rst
+       18
+
+       19          Do While Not .EOF
+       20              Debug.Print !FilePreStr;
+
+       21              Debug.Print "; ";
+       22              .MoveNext
+
+       23              i = i + 1
+       24              If i = 11 Then
+       25                  Debug.Print
+
+       26                  i = 0
+       27              End If
+
+       28          Loop
+       29      End With
+
+       30
+       31      rst.Close
+
+       32      db.Close
+       33
+       34      Set db = Nothing
+
+       35
+       36  End Sub
+
+
+
+
+
+用户权限
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 读取定义,
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+模块: 模块1                                                                                                 页: 59
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者读取定义,
+         Users                      删除, 读取权限, 设置权限, 更改所有者读取定义,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+数据库:                                                                                                    页: 60
+
+
+属性
+AccessVersion:            09.50                        ANSI Query Mode:          0
+
+Build:                    1150                         CheckTruncatedNum         1
+Clear Cache on            0                            CollatingOrder:           Simplified Chinese
+
+HasOfflineLists:          70                           NavPane Category:         0
+NavPane Closed:           0                            NavPane Sort By:          1
+
+NavPane View By:          0                            NavPane Width:            316
+Never Cache:              0                            Picture Property          0
+
+ProjVer:                  119                          QueryTimeout:             60
+RecordsAffected:          0                            Show Navigation           1
+ShowDocumentTabs:         True                         Theme Resource            Office Theme
+
+Themed Form               1                            Transactions:             True
+Updatable:                True                         Use Microsoft             0
+
+UseMDIMode:               0                            Version:                  14.0
+WebDesignMode:            0
+
+
+
+
+
+用户权限
+
+         admin                      删除, 读取权限, 设置权限, 更改所有者, 打开/运行,
+
+
+
+
+组权限
+
+         Admins                     删除, 读取权限, 设置权限, 更改所有者, 打开/运行,
+         Users                      删除, 读取权限, 设置权限, 更改所有者, 打开/运行,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\办公系                                                       2017年5月5日
+统\邮件\2017\分析邮件文件.accdb
+
+关系: 全部                                                                                                  页: 61
+
+
+关系
+
+
+         MSysNavPaneGroupCategoriesMSysNavPaneGroups
+
+                        MSysNavPaneGroup                    MSysNavPaneGroups
+
+                    Id                          1       GroupCategoryID
+
+
+                  Attributes:                 强制, 级联更新, 级联删除
+
+                  RelationshipType:           一对多
+
+
+
+         MSysNavPaneGroupsMSysNavPaneGroupToObjects
+
+                        MSysNavPaneGroups                   MSysNavPaneGroup
+
+                    Id                          1       GroupID
+
+
+
+                  Attributes:                 强制, 级联更新, 级联删除
+                  RelationshipType:           一对多
