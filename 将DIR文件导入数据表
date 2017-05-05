@@ -1,6 +1,11 @@
 
 Sub InputFile()
 
+    '本程序的用途与用法：
+    '1 运行DIR命令
+    'DIR命令格式：DIR /s >filename.txt
+    '2 执行此程序，把文本文件导入数据库的表中。
+    
     Dim strFilename, DiskChar As String
     Dim a, strFolder As String
     Dim db As Database
