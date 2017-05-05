@@ -1,0 +1,82 @@
+
+Sub InputFile()
+
+    Dim strFilename, DiskChar As String
+    Dim a, strFolder As String
+    Dim db As Database
+    Dim rst As Recordset
+    Dim i, j As Double
+        
+    Set db = CurrentDb
+    Set rst = db.OpenRecordset("tblCommon")
+    
+    db.Execute "DELETE * FROM TBLCOMMON"
+    
+    strFilename = "d:\cdzj0406.txt"
+    intMax = 1000000000
+    i = 0
+    j = 0
+    
+    '获取盘符
+    Open strFilename For Input As #1
+    Line Input #1, a
+    Line Input #1, a
+    Line Input #1, a
+    Line Input #1, a
+    DiskChar = Left(a, 2)
+     
+    Close #1
+    
+    Open strFilename For Input As #1
+    
+    Do While (Not EOF(1)) And i < intMax
+        Line Input #1, a
+        If Left(a, 2) = DiskChar Or Left(a, 2) = "20" Then
+            If Not Mid(a, 22, 5) = "<DIR>" Then
+                
+                If Left(a, 2) = DiskChar Then
+                    a = Trim(a)
+                    strFolder = Mid(a, 1, InStr(a, " 的目录"))
+                Else
+                    Debug.Print "    " + a
+                    rst.AddNew
+                    rst!mDate = CDate(Left(a, 17))
+                    rst!Folder = strFolder
+                    If Len(Trim(strFolder)) > 3 Then
+                        If InStr(4, strFolder, "\") > 0 Then
+                            rst!Dept = Mid(strFolder, InStr(1, strFolder, "\") + 1, InStr(4, strFolder, "\") - InStr(1, strFolder, "\") - 1)
+                        Else
+                            rst!Dept = Mid(strFolder, InStr(1, strFolder, "\") + 1, Len(strFolder) - InStr(1, strFolder, "\") - 1)
+                        End If
+                    End If
+                    rst!Size = CDbl(Mid(a, 18, 18))
+                    rst!FileName = Mid(a, 37, Len(a) - 36)
+                    rst.Update
+                    j = j + 1
+                End If
+                
+            End If
+        End If
+        
+        Debug.Print i & "  " & j
+        i = 1 + i
+    Loop
+    
+    
+    Close #1
+    
+    rst.Close
+    db.Close
+    
+    Set rst = Nothing
+    Set db = Nothing
+    
+    MsgBox "共 " & i & " 个文件。", vbOKOnly, "导入完成"
+    
+    '导出数据，电子表格
+    
+    DoCmd.OutputTo acOutputQuery, "qry总量", "ExcelWorkbook(*.xlsx)", "d:\FolderAnalysis\文件夹占用空间总量.xlsx", False, "", , acExportQualityPrint
+    DoCmd.OutputTo acOutputQuery, "qry部门总量", "ExcelWorkbook(*.xlsx)", "d:\FolderAnalysis\部门文件占用空间总量.xlsx", False, "", , acExportQualityPrint
+    DoCmd.OutputTo acOutputQuery, "qry文件年份总量", "ExcelWorkbook(*.xlsx)", "d:\FolderAnalysis\各年份文件占用空间总量.xlsx", False, "", , acExportQualityPrint
+    
+End Sub
