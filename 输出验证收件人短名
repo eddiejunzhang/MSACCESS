@@ -1,0 +1,32 @@
+Public Sub OutputReceipts()
+
+    'Éú³ÉÒ»×éÎÄ±¾Êý¾Ý£¬Ã¿10¸ö¶ÌÃûÎªÒ»×é£¬ÓÃÓÚ·¢ËÍ²âÊÔÓÊ¼þ¸øÕâÐ©ÓÃ»§£¬ÒÔÑéÖ¤ËûÃÇÊÇ·ñÔÚÖ°ÔÚÓÃ¡£
+    '2017-5
+    'By Eddie
+    Dim db As Database
+    Dim rst As Recordset
+    Dim i As Integer
+        
+    Set db = CurrentDb
+    Set rst = db.OpenRecordset("qryM08-mail0421ÎÞ×´Ì¬")
+    
+    With rst
+    
+        Do While Not .EOF
+            Debug.Print !FilePreStr;
+            Debug.Print "; ";
+            .MoveNext
+            i = i + 1
+            If i = 11 Then
+                Debug.Print
+                i = 0
+            End If
+        Loop
+    End With
+    
+    rst.Close
+    db.Close
+    
+    Set db = Nothing
+    
+End Sub
