@@ -1,6 +1,7 @@
 Sub InputNmaes()
 
     '2017-5-24, by Eddie
+    '在光大永明人寿
     Dim strFilename, DiskChar As String
     Dim a, strFolder As String
     Dim db As Database
