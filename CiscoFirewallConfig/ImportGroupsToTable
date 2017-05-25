@@ -1,0 +1,123 @@
+Sub InputGroups()
+
+    '2017-5-24, by Eddie
+    Dim strFilename, DiskChar As String
+    Dim a, strType, strGroupName As String
+    Dim db As Database
+    Dim rst As Recordset
+    Dim i, j As Double
+        
+    Set db = CurrentDb
+    Set rst = db.OpenRecordset("tblGroups")
+    
+    db.Execute "DELETE * FROM tblGroups"
+    
+    strFilename = "d:\TIS-MPLS-ASA5540-Running.Config"
+    intMax = 1000000000
+    i = 0
+    j = 0
+    
+    
+    Open strFilename For Input As #1
+    
+    Do While (Not EOF(1)) And i < intMax
+        Line Input #1, a
+        
+        If Left(a, 13) = "object-group " Then
+            
+            Debug.Print "    " + a, InStr(6, a, " ")
+            strType = Mid(a, 14, 7)
+            strGroupName = Right(a, Len(a) - 21)
+            
+        End If
+        If Left(a, 15) = " network-object" Or Left(a, 12) = " port-object" Then
+            a = Trim(a)
+            rst.AddNew
+            rst!Type = strType
+            rst!GroupName = strGroupName
+            rst!Object = Left(a, InStr(1, a, " "))
+            If Left(a, 14) = "network-object" Then
+                rst!eqOrHost = Mid(a, 16, InStr(16, a, " ") - 15)
+                rst!PortOrIP = Right(a, Len(a) - InStr(16, a, " "))
+            Else
+                rst!eqOrHost = Mid(a, 13, InStr(13, a, " ") - 12)
+                rst!PortOrIP = Right(a, Len(a) - InStr(13, a, " "))
+            End If
+            rst.Update
+            j = j + 1
+        End If
+
+        
+                
+        Debug.Print i & "  " & j
+        i = 1 + i
+    Loop
+    
+    
+    Close #1
+    
+    rst.Close
+    db.Close
+    
+    Set rst = Nothing
+    Set db = Nothing
+    
+    MsgBox "¹² " & i & " ¸ö¼ÇÂ¼¡£", vbOKOnly, "µ¼ÈëÍê³É"
+    
+
+End Sub
+
+
+Sub AccessList()
+
+    '2017-5-24, by Eddie
+    Dim strFilename, DiskChar As String
+    Dim a, strFolder As String
+    Dim db As Database
+    Dim rst As Recordset
+    Dim i, j As Double
+        
+    Set db = CurrentDb
+    Set rst = db.OpenRecordset("tblNames")
+    
+    db.Execute "DELETE * FROM tblNames"
+    
+    strFilename = "d:\TIS-MPLS-ASA5540-Running.Config"
+    intMax = 1000000000
+    i = 0
+    j = 0
+    
+    
+    Open strFilename For Input As #1
+    
+    Do While (Not EOF(1)) And i < intMax
+        Line Input #1, a
+        
+        If Left(a, 5) = "name " Then
+            a = Trim(a)
+            Debug.Print "    " + a, InStr(6, a, " ")
+            rst.AddNew
+            rst!IPAddress = Mid(a, 6, InStr(6, a, " ") - 5)
+            rst!UserName = Right(a, Len(a) - InStr(6, a, " "))
+
+            rst.Update
+            j = j + 1
+        End If
+                
+        Debug.Print i & "  " & j
+        i = 1 + i
+    Loop
+    
+    
+    Close #1
+    
+    rst.Close
+    db.Close
+    
+    Set rst = Nothing
+    Set db = Nothing
+    
+    MsgBox "¹² " & i & " ¸ö¼ÇÂ¼¡£", vbOKOnly, "µ¼ÈëÍê³É"
+    
+
+End Sub
