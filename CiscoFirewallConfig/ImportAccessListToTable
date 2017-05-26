@@ -1,0 +1,133 @@
+Sub AccessList()
+
+    '2017-5-24, by Eddie
+    Dim strFilename, strExt, strNum, strPermit, strClass As String
+    Dim strFromType, strFromObject, strToType, strToProject, streq, strPort As String
+    Dim a, strFolder As String
+    Dim LoadExtData, LoadRemark As Boolean
+    Dim db As Database
+    Dim rst As Recordset
+    Dim i, j As Double
+        
+    Set db = CurrentDb
+    Set rst = db.OpenRecordset("tblAccessList")
+    
+    db.Execute "DELETE * FROM tblAccessList"
+    
+    strFilename = "C:\Users\tj863.SLEB\Desktop\Work\SLEB\ITD\网络\机房内网络"
+    strFilename = strFilename + "\TIS-MPLS-ASA5540-Running.Config"
+    intMax = 1000000000
+    i = 0
+    j = 0
+        
+    Open strFilename For Input As #1
+    
+    Do While (Not EOF(1)) And i < intMax
+        Line Input #1, a
+        a = Trim(a)
+        
+        If Left(a, 12) = "access-list " Then
+            Debug.Print "    " + a, InStr(6, a, " ")
+            
+            If Mid(a, 17, 8) = "extended" Then
+                If LoadExtData = True Then
+                    '写记录
+                    rst.AddNew
+                    rst!Num = strNum
+                    rst!Ext = strExt
+                    rst!Permit = strPermit
+                    rst!Class = strClass
+                    rst!FromType = strFromType
+                    rst!FromObject = strFromObject
+                    rst!ToType = strToType
+                    rst!ToObject = strToProject
+                    rst!eq = streq
+                    rst!Port = strPort
+                
+                    rst.Update
+                    LoadExtData = False
+                
+                    j = j + 1
+                    
+                End If
+                '装载数据
+                
+                k = 1
+                strToType = ""
+                strToProject = ""
+                streq = ""
+                strPort = ""
+                Do While InStr(1, a, " ") > 0
+              
+                    CurrentString = Left(a, InStr(1, a, " ") - 1)
+                    If k = 2 Then strNum = CurrentString
+                    If k = 3 Then strExt = CurrentString
+                    If k = 4 Then strPermit = CurrentString
+                    If k = 5 Then strClass = CurrentString
+                    If k = 6 Then strFromType = CurrentString
+                    If k = 7 Then strFromObject = CurrentString
+                    If k = 8 Then strToType = CurrentString
+                    If k = 9 Then strToProject = CurrentString
+                    If k = 10 Then streq = CurrentString
+                    If k = 11 Then strPort = CurrentString
+                    
+                    Debug.Print k, CurrentString, a
+                    a = Replace(a, CurrentString, " ", 1, 1)
+                    a = Trim(a)
+                    k = k + 1
+                Loop
+                
+                If k = 7 Then strFromObject = a
+                If k = 8 Then strToType = a
+                If k = 9 Then strToProject = a
+                If k = 10 Then streq = a
+                If k = 11 Then strPort = a
+                
+                LoadExtData = True
+                
+            End If
+            If Mid(a, 17, 6) = "remark" Then
+                '装载数据
+                strRemark = Replace(a, "access-list 100 remark ", "")
+                
+                LoadRemark = True
+                
+                '写记录
+                rst.AddNew
+                rst!Num = strNum
+                rst!Ext = strExt
+                rst!Permit = strPermit
+                rst!Class = strClass
+                rst!FromType = strFromType
+                rst!FromObject = strFromObject
+                rst!ToType = strToType
+                rst!ToObject = strToProject
+                rst!eq = streq
+                rst!Port = strPort
+                
+                rst!Remark = strRemark
+                
+                rst.Update
+                LoadExtData = False
+                LoadRemark = False
+                j = j + 1
+            End If
+            
+        End If
+                
+        Debug.Print i & "  " & j
+        i = 1 + i
+        
+    Loop
+            
+    Close #1
+    
+    rst.Close
+    db.Close
+    
+    Set rst = Nothing
+    Set db = Nothing
+    
+    MsgBox "共 " & i & " 个记录。", vbOKOnly, "导入完成"
+    
+End Sub
