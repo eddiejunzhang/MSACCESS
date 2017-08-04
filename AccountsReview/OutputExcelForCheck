@@ -1,0 +1,100 @@
+Option Compare Database
+
+
+Public Sub OutputExcelForReview()
+
+    '按系统-分公司生成电子表格。
+    Dim db As Database
+    Dim rst, rst1 As Recordset
+    Dim SystemArray(40), BranchArray(2000) As String
+    Dim i, j As Integer
+    Dim strPath, strFileName, strSQL As String
+    Dim intMaxSys, intMaxBranch As Integer
+    
+    strPath = "c:\a\"
+    strFileName = "存在疑问的帐号清单"
+    
+        'Dim strFilename, DiskChar As String
+    'Dim a, strFolder As String
+'
+    'Dim i, j As Double
+        
+    Set db = CurrentDb
+    
+    strSQL = "SELECT tblSysList.SystemName " _
+        & "FROM tblSysList " _
+        & "WHERE (((tblSysList.NeedReview)=True));"
+    Set rst = db.OpenRecordset(strSQL)
+    
+    '在系统数组中输入数据
+    i = 0
+    Do While Not rst.EOF
+        SystemArray(i) = rst!SystemName
+        rst.MoveNext
+        i = i + 1
+    Loop
+    intMaxSys = i
+    
+    strSQL = "SELECT qrySysUserPeciDate.Branch " _
+        & "FROM qrySysUserPeciDate " _
+        & "GROUP BY qrySysUserPeciDate.Branch;"
+        
+    Set rst = db.OpenRecordset(strSQL)
+    
+    '在分支机构数组中输入数据
+    i = 0
+    Do While Not rst.EOF
+        If Not IsNull(rst!Branch) Then
+            BranchArray(i) = rst!Branch
+            Debug.Print (BranchArray(i))
+            i = i + 1
+        End If
+        rst.MoveNext
+    Loop
+    intMaxBranch = i
+    
+    strSQL = "SELECT tblSysUser.* " _
+            & "FROM tblSysUser " _
+            & "WHERE (((tblSysUser.ImportDate)=#7/28/2017#));"
+
+    
+    Set rst = db.OpenRecordset(strSQL)
+    i = 0
+    j = 0
+    Do While Not (SystemArray(i) = "" Or IsNull(SystemArray(i)))
+        Debug.Print (SystemArray(i))
+        'Do While Not (SystemArray(j) = "" Or IsNull(BranchArray(i)))
+        For j = 0 To intMaxBranch
+            Debug.Print (SystemArray(i) + "   " + BranchArray(j))
+            
+            strSQL = "SELECT qrySysUserPeciDate.* " _
+                & "FROM qrySysUserPeciDate " _
+                & "WHERE (((qrySysUserPeciDate.CompareResult) Is Null) AND ((qrySysUserPeciDate.Branch)=""" + BranchArray(j) + """) AND " _
+                & "((qrySysUserPeciDate.SystemName)= """ + SystemArray(i) + """ )); "
+            
+            'Debug.Print (db.QueryDefs("qryTemp").SQL)
+            db.QueryDefs("qryTemp").SQL = strSQL
+            db.QueryDefs.Refresh
+            '检查查询中是否有记录，如果有则输出
+            Set rst1 = db.OpenRecordset("qryTemp")
+            If Not rst1.EOF Then
+                rst.MoveLast
+                Debug.Print (rst1.RecordCount)
+                DoCmd.OutputTo acOutputQuery, "qryTemp", "ExcelWorkbook(*.xlsx)", strPath + strFileName + "_" + SystemArray(i) + "_" + BranchArray(j) + ".xlsx", False, "", , acExportQualityPrint
+            End If
+            
+            rst1.Close
+            Set rst1 = Nothing
+            
+        Next j
+        j = 0
+        i = i + 1
+    Loop
+    
+    
+    rst.Close
+    db.Close
+    Set rst = Nothing
+    Set db = Nothing
+
+End Sub
