@@ -1,1 +1,4 @@
-public
+Public Function ShStatus(str AS String)
+  varReturn= SysCmd(acSysCmdSetStatus, str)
+  Beep
+End Function
